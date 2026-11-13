@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "Dietfood",
+    "slug": "dietfood",
+    "version": "1.2.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#F6F7F7",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#F6F7F7"
+    },
+    "android": {
+      "package": "com.dietfood.app",
+      "versionCode": 3,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#F6F7F7"
+      },
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": true
+    },
+    "plugins": [
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4cf24c30-a511-461a-a0d3-e3c975d44a64"
+      }
+    },
+    "owner": "gabaduarte7"
+  }
+}
